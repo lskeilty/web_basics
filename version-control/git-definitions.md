@@ -18,4 +18,4 @@ A good commit message will be informative but still under 50 characters. It will
 
 * What is a merge conflict?
 
-When a branch gets made of a master, it gets a copy of whatever is in the master branch. So, using the example above of the itinerary, all the branches would have a copy of Day 1 off the master branch. But say someone updated some part of the Day 1 itinerary on the master branch after the other branches were made. When the other branches (Day 2/3/etc) would go to merge with the master branch, their Day 1 version of the master branch would be different. And it would create a merge conflict.
+When a branch gets made of a master, it gets a copy of whatever is in the master branch. So, using the example above of the itinerary, all the branches would have a copy of Day 1 off the master branch. But say someone updated some part of the Day 1 itinerary on the master branch after the other branches were made. When the other branches (Day 2/3/etc) would go to merge with the master branch, their Day 1 version of the master branch would be different. And it would create a merge conflict because the master file is different than what the branches have.
